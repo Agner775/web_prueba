@@ -22,7 +22,7 @@ const products = [
     image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=700&q=85"
   },
   {
-    id: 5, name: "Horno microondas", category: "Cocina",
+    id: 5, name: "Horno microondas", category: "Microondas",
     description: "Digital · 1.1 pies cúbicos", price: 2499, stock: 12,
     image: "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=700&q=85"
   },
@@ -32,7 +32,7 @@ const products = [
     image: "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=700&q=85"
   },
   {
-    id: 7, name: "Aire acondicionado", category: "Refrigeración",
+    id: 7, name: "Aire acondicionado", category: "Ventiladores y aire acondicionado",
     description: "Minisplit · 12,000 BTU", price: 13999, stock: 4,
     image: "https://images.unsplash.com/photo-1631545806609-7e1b7abece1a?auto=format&fit=crop&w=700&q=85"
   },
