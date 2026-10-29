@@ -40,6 +40,11 @@ const products = [
     id: 8, name: "Cafetera eléctrica", category: "Pequeños electrodomésticos",
     description: "Jarra de vidrio · 12 tazas", price: 999, stock: 0,
     image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=85"
+  },
+   {
+    id: 9, name: "Equipo de sonido", category: "Sonido",
+    description: "1000 watts", price: 6999, stock: 2,
+    image: "https://www.lg.com/cac/images/equipo-de-sonido/md05819210/gallery/DZ-01.jpg"
   }
 ];
 
