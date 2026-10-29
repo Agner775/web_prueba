@@ -4,7 +4,7 @@ const products = [
   {
     id: 1, name: "Refrigeradora No Frost", category: "Refrigeración",
     description: "Top Mount · 14 pies cúbicos", price: 18999, stock: 7,
-    image: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=700&q=85"
+    image: "https://www.lg.com/cac/images/refrigerador/md07602521/gallery-01/D-01.jpg"
   },
   {
     id: 2, name: "Lavadora automática", category: "Lavado",
@@ -14,7 +14,7 @@ const products = [
   {
     id: 3, name: "Cocina de gas", category: "Cocina",
     description: "4 quemadores · Horno incluido", price: 8999, stock: 5,
-    image: "https://images.unsplash.com/photo-1586208958839-06c17cacdf08?auto=format&fit=crop&w=700&q=85"
+    image: "https://www.mabeglobal.com/medias/515Wx515H-A-Mabe-Cocina-20-pulgadas-Plata-Mercury-EM5035CFIS0-Frente.jpg?context=bWFzdGVyfGltYWdlc3wxNTA5OXxpbWFnZS9qcGVnfGFEQmtMMmd4T1M4eE1qY3dNalUzT0RVd056Z3dOaTgxTVRWWGVEVXhOVWhmUVMxTllXSmxMVU52WTJsdVlTMHlNQzF3ZFd4bllXUmhjeTFRYkdGMFlTMU5aWEpqZFhKNUxVVk5OVEF6TlVOR1NWTXdMVVp5Wlc1MFpTNXFjR2N8OTkyM2RiNmM4ODQwODA3NWU5M2M2YmE5YjczYzRmNmY3YTQ3NTYxZWU3MDI1MmQyYWI1MjM5MGZkOTk1MWJkMw"
   },
   {
     id: 4, name: "Televisor Smart TV", category: "Entretenimiento",
@@ -34,7 +34,7 @@ const products = [
   {
     id: 7, name: "Aire acondicionado", category: "Ventiladores y aire acondicionado",
     description: "Minisplit · 12,000 BTU", price: 13999, stock: 4,
-    image: "https://images.unsplash.com/photo-1631545806609-7e1b7abece1a?auto=format&fit=crop&w=700&q=85"
+    image: "https://orbegozo.com/wp-content/uploads/2026/05/aire-acondicionado-portatil-ADR-7000_3.jpg"
   },
   {
     id: 8, name: "Cafetera eléctrica", category: "Pequeños electrodomésticos",
@@ -45,7 +45,7 @@ const products = [
     id: 9, name: "Equipo de sonido", category: "Sonido",
     description: "1000 watts", price: 6999, stock: 2,
     image: "https://www.lg.com/cac/images/equipo-de-sonido/md05819210/gallery/DZ-01.jpg"
-  }
+  },
 ];
 
 const grid = document.querySelector("#product-grid");
