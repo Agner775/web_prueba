@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de electrodomésticos con precios y disponibilidad.">
+  <title>Electrocredit | Tienda de electrodomésticos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Electrocredit, inicio">
+      <span class="brand-icon">EC</span>
+      <span>Electro<span class="brand-accent">Credit</span></span>
+    </a>
+    <div class="header-note">Calidad para tu hogar</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">TODO PARA TU HOGAR</p>
+        <h1>Haz tu hogar<br><span>más cómodo.</span></h1>
+        <p>Encuentra electrodomésticos para cada espacio, con precios accessibles y calidad garantizada.</p>
+        <a class="hero-button" href="#catalogo">Ver catálogo <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-decoration" aria-hidden="true">
+        <div class="hero-circle"></div>
+        <div class="hero-fridge"><div></div><div></div></div>
+        <div class="hero-spark spark-one">✦</div>
+        <div class="hero-spark spark-two">✦</div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalogo">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">NUESTROS PRODUCTOS</p>
+          <h2>Catálogo de electrodomésticos</h2>
+          <p class="muted">Consulta precios y disponibilidad en un solo lugar.</p>
+        </div>
+        <div class="inventory-summary" aria-live="polite">
+          <span class="summary-dot"></span>
+          <span id="product-count">Cargando productos...</span>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="search" type="search" placeholder="Buscar un producto..." aria-label="Buscar productos">
+        </label>
+        <label class="select-wrap">
+          <span class="sr-only">Filtrar por categoría</span>
+          <select id="category">
+            <option value="todos">Todas las categorías</option>
+            <option value="Refrigeración">Refrigeración</option>
+            <option value="Lavado">Lavado</option>
+            <option value="Cocina">Cocina</option>
+            <option value="Entretenimiento">Entretenimiento</option>
+            <option value="Pequeños electrodomésticos">Pequeños electrodomésticos</option>
+          </select>
+        </label>
+        <label class="select-wrap">
+          <span class="sr-only">Ordenar productos</span>
+          <select id="sort">
+            <option value="featured">Orden recomendado</option>
+            <option value="price-asc">Precio: menor a mayor</option>
+            <option value="price-desc">Precio: mayor a menor</option>
+            <option value="name">Nombre: A-Z</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="product-grid" class="product-grid"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <span class="empty-icon">⌕</span>
+        <h3>No encontramos productos</h3>
+        <p>Prueba con otro nombre o cambia los filtros.</p>
+        <button id="clear-filters" class="secondary-button">Limpiar filtros</button>
+      </div>
+      <p class="demo-note">* Catálogo de demostración. Los precios, imágenes y cantidades son de ejemplo; actualízalos con los datos reales de tu tienda.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#"><span class="brand-icon">EC</span><span>Electro<span class="brand-accent">credit</span></span></a>
+    <p>Tu hogar, equipado con confianza.</p>
+    <p>© <span id="year"></span> Electrocredit</p>
+  </footer>
+</body>
+</html>
